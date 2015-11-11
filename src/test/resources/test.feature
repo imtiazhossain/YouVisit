@@ -4,8 +4,8 @@ Feature: Navigate to Virtual Tours screen
 
     Given that user navigates to YouVisit
     When the user clicks on the 'Create' button
-    When the user clicks on the 'Get Started' button
-    When the user clicks on the 'Free - Get Started' button
-    When the user clicks log in
-    When the user logs in
+    And the user clicks on the 'Get Started' button
+    And the user clicks on the 'Free - Get Started' button
+    And the user clicks log in
+    And the user logs in
     Then the Virtual Tours screen should show
