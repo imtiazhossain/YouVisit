@@ -50,6 +50,6 @@ public class StepDefinitions {
 
     @Then("^the Virtual Tours screen should show$")
     public void assertVirtualToursScreenShows() throws Throwable {
-        $(By.cssSelector("#profile-content > div.clearfix.top50 > h1")).shouldHave(text("imtiz.hossain's Virtual Tours"));
+        $(By.cssSelector("#profile-content > div.clearfix.top50 > h1")).shouldHave(text("imtiaz.hossain's Virtual Tours"));
     }
 }
