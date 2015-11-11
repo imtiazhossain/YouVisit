@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        format = {"pretty", "html:cucumber-html-reports"},
+        format = {"pretty", "html:target"},
         features = "src/test/resources"
 )
 public class CucumberRunnerTest {
