@@ -18,7 +18,7 @@ public class StepDefinitions {
 
     @Given("^that user navigates to YouVisit$")
     public void navigateToYouVisit() {
-        open("http://www.youvisit.com/");
+        open("http://qa.dev.youvisit.com/");
     }
 
     @When("^the user clicks on the 'Create' button$")
@@ -43,13 +43,13 @@ public class StepDefinitions {
 
     @When("^the user logs in$")
     public void logInViaGoogle() throws Throwable {
-        $(By.name("identifier")).setValue("imtihoss@gmail.com");
+        $(By.name("identifier")).setValue("qatest@youvisit.com");
         $(By.cssSelector("#loginForm > input:nth-child(3)")).setValue("abcd1234");
         $(By.id("loginButton")).click();
     }
 
     @Then("^the Virtual Tours screen should show$")
     public void assertVirtualToursScreenShows() throws Throwable {
-        $(By.cssSelector("#profile-content > div.clearfix.top50 > h1")).shouldHave(text("imtiaz.hossain's Virtual Tours"));
+        $(By.cssSelector("#profile-content > div.clearfix.top50 > h1")).shouldHave(text("qatest's Virtual Tours"));
     }
 }
