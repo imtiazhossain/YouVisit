@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4737e3c5-2870-407a-a039-94c77492bc64" name="Default" comment="Add Create New Tour and Delete Tour steps">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/CreateNewTourSteps.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DeleteTourSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$" afterPath="$PROJECT_DIR$" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YouVisit.iml" afterPath="$PROJECT_DIR$/YouVisit.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/CreateFreeTourPage.feature" afterPath="$PROJECT_DIR$/src/test/resources/CreateFreeTourPage.feature" />
     </list>
     <ignored path="YouVisit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -740,6 +735,13 @@
       <option name="number" value="Default" />
       <updated>1447198111214</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add Create New Tour and Delete Tour steps">
+      <created>1448920279085</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1448920279086</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
