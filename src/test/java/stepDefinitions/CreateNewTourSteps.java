@@ -16,8 +16,6 @@ public class CreateNewTourSteps {
 
     @Given("^that user is on the Tour builder page$")
     public void that_user_is_on_the_Tour_builder_page() throws Throwable {
-
-
     }
 
     @When("^the user click on the 'New Tour' tile$")
